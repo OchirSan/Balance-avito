@@ -1,0 +1,13 @@
+[SQLDataBase]
+  Server = "localhost"
+  Database = "postgres"
+  Port = 5432
+  ApplicationName = "service"
+  MaxIdleConns = 2
+  MaxOpenConns = 2
+  ConnMaxLifetime = "5m"
+
+[ServerOpt]
+  ReadTimeout = "5s"
+  WriteTimeout = "5s"
+  IdleTimeout = "5s"
